@@ -1,0 +1,75 @@
+
+/*
+CSS for Woo OTP for order placement.
+*/
+.verification_message {
+    color: #659044 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+h3.verification_message {
+    background: rgba(120, 156, 93, 0.1);
+    padding: 20px;
+}
+.verification_nmatch {
+    color: #E86C6C !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+.otp_modal {
+    width: 90%;
+    max-height: 80%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    max-width: 500px;
+	max-height: 300px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+	box-shadow: 0px 0px 5px 2px #ddd;
+	padding-top:35px;
+	display:none;
+}
+.otP_inner {
+    padding: 20px;
+}
+	.otP_inner form{
+		
+	}
+.otP_inner form input {
+    margin-bottom: 10px;
+}
+select#country_code {
+    margin-bottom: 10px;
+}
+.otP_inner form input[type=submit] {
+    background: #3E3E3E;
+    color: #fff;
+}
+.otP_inner form input[type=submit]:hover {
+    opacity:0.8;
+}
+span.toggle_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 5px 15px;
+    background: #EA6161;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+span.toggle_btn:hover {
+    opacity:0.8;
+}
+.otP_inner h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #333;
+}
